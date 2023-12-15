@@ -1,16 +1,27 @@
 .product-main-holder {
-    width: 90%;
-    height: 100%;
-    flex-wrap: wrap;
-    margin: 0 auto;
+  width: 90%;
+  height: 100%;
+  flex-wrap: wrap;
+  margin: 4.5rem auto;
+ 
 }
 
 .not-found {
-    font-size: 3rem;
+  font-size: 3rem;
 }
 
-@media (max-width:768px) {
-    .product-main-holder {
-        width: 100%;
-    }
+.loading-screen {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  justify-content: center;
+align-items: center;
+  font-size: 2rem;
+  margin-top: 4.5rem !important;
+}
+
+@media (max-width: 768px) {
+  .product-main-holder {
+    width: 100%;
+  }
 }
